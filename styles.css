@@ -530,7 +530,7 @@ footer p {
     }
     .hero-content {
         position: relative;
-        left: 8vh;
+        left: 9vh;
         bottom: 6vh;
         height: 50vh;
         width: 70vw;
@@ -546,11 +546,19 @@ footer p {
     .sudip-header-photo img {
         position: relative;
         top: 25vh;
-        right: 19vh;
+        right: 21vh;
         height: 50vh;
         width: 70vw;
     }
-    
+    .header-video {
+        position: fixed;
+        width: 100%; /* Full width of the parent */
+        height: 100%;
+        padding-top: 177.78%; /* 9:16 aspect ratio */
+        overflow: hidden;
+        z-index: -2; 
+        opacity: 40%;
+    }
 
     nav h2 {
         font-size: 20px;
@@ -562,7 +570,9 @@ footer p {
     }
 
     .hero .btn {
-        font-size: 16px;
+        position: relative;
+        bottom: 8px;
+        font-size: 10px;
         padding: 10px 20px;
     }
 
