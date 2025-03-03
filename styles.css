@@ -530,7 +530,7 @@ footer p {
     }
     .hero-content {
         position: relative;
-        left: 9vh;
+        left: 8vh;
         bottom: 6vh;
         height: 50vh;
         width: 70vw;
@@ -556,7 +556,7 @@ footer p {
         height: 100%;
         padding-top: 177.78%; /* 9:16 aspect ratio */
         overflow: hidden;
-        z-index: -2; 
+        z-index: -1.1; 
         opacity: 40%;
     }
 
@@ -566,7 +566,7 @@ footer p {
 
     nav .btn {
         padding: 10px 20px;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .hero .btn {
