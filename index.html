@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/bda20007f7.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudip Sunuwar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h2 class="logo">Sudip <span>Portfolio</span></h2>
+            <ul>
+                <li><a href="#about">
+                    <i class="fa-solid fa-address-card mobile-icon" style="color: #ff6f61;"></i>
+                    <span class="desktop-text">About</span>
+                </a></li>
+                
+                <li><a href="#services">
+                    <i class="fa-solid fa-briefcase mobile-icon" style="color: #ff6f61;"></i>
+                    <span class="desktop-text">Services</span>
+                </a></li>
+            
+                <li><a href="#portfolio">
+                    <i class="fa-solid fa-image mobile-icon" style="color: #ff6f61;"></i>
+                    <span class="desktop-text">Portfolio</span>
+                </a></li>
+            
+                <li><a href="#contact">
+                    <i class="fa-solid fa-envelope mobile-icon" style="color: #ff6f61;"></i>
+                    <span class="desktop-text">Contact</span>
+                </a></li>
+            </ul>
+            <a href="#contact" class="btn">Hire Me</a>
+        </nav>
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Sudip</span></h1>
+            <p> Video Editor | Graphic Designer | Web Developer</p>
+            <a href="#portfolio" class="btn">VIEW PORTFOLIO</a>
+        </div>
+        <div class="sudip-header-photo">
+            <img src="videos\sudip_photo.png" alt="Sudip's Photo">
+        </div>
+        <div class="header-video">
+            <video class="header-background-video" autoplay loop muted>
+                <source src="videos\header-video.mp4" type="video/mp4">
+            </video> 
+        </div>
+               
+    </header>
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a Multimedia Expert with expertise in video editing, graphic design, and web development. I hold a Bachelor's degree in Information Technology.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fas fa-video"></i>
+                <h3>Video Editing</h3>
+                <p>Professional editing with cinematic effects.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Creative and modern graphic designs.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Responsive and dynamic websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Projects</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project 2</h3>
+                    <p>A brief description of Project 2.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project 3</h3>
+                    <p>A brief description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sudip Sunuwar. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
