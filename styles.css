@@ -59,7 +59,7 @@ body {
 }
 .sudip-header-photo img {
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 150px;
     height: 700px;
     width: 500px;
     filter: grayscale(0.5) contrast(1.2);
@@ -537,7 +537,7 @@ footer p {
         width: 100vw;
     }
     .hero-content h1 {
-        font-size: 32px;
+        font-size: 20px;
         width: 100vw;
     }
 
