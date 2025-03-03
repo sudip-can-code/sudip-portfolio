@@ -533,10 +533,11 @@ footer p {
         left: 8vh;
         bottom: 6vh;
         height: 50vh;
-        width: 70vw;
+        width: 100vw;
     }
     .hero-content h1 {
         font-size: 32px;
+        width: 100vw;
     }
 
     .hero-content p {
@@ -545,10 +546,10 @@ footer p {
 
     .sudip-header-photo img {
         position: relative;
-        top: 25vh;
-        right: 21vh;
-        height: 50vh;
-        width: 70vw;
+        top: 20vh;
+        right: 35vh;
+        height: 60vh;
+        width: 90vw;
     }
     .header-video {
         position: fixed;
@@ -556,7 +557,7 @@ footer p {
         height: 100%;
         padding-top: 177.78%; /* 9:16 aspect ratio */
         overflow: hidden;
-        z-index: -1.1; 
+        z-index: -1.05; 
         opacity: 40%;
     }
 
@@ -565,15 +566,16 @@ footer p {
     }
 
     nav .btn {
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-size: 10px;
     }
 
     .hero .btn {
         position: relative;
         bottom: 8px;
+        right: 5px;
         font-size: 10px;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     
