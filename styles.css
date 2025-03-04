@@ -135,6 +135,9 @@ nav .btn {
 nav .btn:hover {
     background-color: #ff4b40;
 }
+.navbox {
+    display: none;
+}
 .mobile-icon {
     display: none;
 }
@@ -489,13 +492,17 @@ footer p {
 
 @media (max-width: 480px) {
     nav {
+        width: 100%;
         display: inline;
         align-items: center;
-        margin-left: -2.5rem;
+        justify-content: center;
+        margin-left: -8%;
         
     }
     nav h2.logo {
+        margin-left: 5%;
         margin-bottom: 8%;
+        font-size: 1.5rem;
     }
 
     nav ul {
@@ -503,8 +510,8 @@ footer p {
 
     }
     nav ul li{
-    display: inline;
-        
+    display: inline;  
+
     }
 
     nav ul li i{
@@ -513,44 +520,48 @@ footer p {
     display: inline;
     }
     
-    nav .btn {
+    nav a.btn {
         position: relative;
         left: 2%;
-        background-color: #ff6f61;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        color: #fff;
+        background-color: #fff;
+        margin-bottom: 18px;
+        color: #ff6f61;
         font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
         transition: background-color 0.3s ease;
+        border-radius: 5px !important;
     }
     
     nav .btn:hover {
         background-color: #ff4b40;
     }
+    .navbox {
+        position: relative;
+        z-index: -1;
+        bottom: 4.6vh;
+        display: flex;
+        background-color: #ff6f61;
+        width: 103%;
+        height: 5vh;
+        
+    }
+
     .hero-content {
         position: relative;
-        left: 6.5vh;
-        bottom: 6vh;
-        height: 50vh;
+        left: 8vh;
+        bottom: 15vh;
+        height: 23vh;
         width: 100vw;
     }
     .hero-content h1 {
-        font-size: 20px;
+        font-size: 2.5rem;
         width: 100vw;
     }
 
     .hero-content p {
+        margin-top: -3%;
         font-size: 16px;
-    }
-
-    .sudip-header-photo img {
-        position: relative;
-        top: 25vh;
-        right: 33vh;
-        height: 50vh;
-        width: 80vw;
     }
     .header-video {
         position: fixed;
@@ -561,22 +572,35 @@ footer p {
         z-index: -1.05; 
         opacity: 40%;
     }
-
+    .sudip-header-photo {
+        position: relative;
+        right: 20%;
+        width: 40%;
+        z-index: -1;
+        opacity: 100%;
+        display: flex;
+        align-items: center;
+        filter: grayscale(0.5) contrast(1.2);   
+    }
+    .sudip-header-photo img {
+        position: relative;
+        top: 25vh;
+        right: 27vh;
+        height: 60vh;
+        width: 90vw;
+    }
+   
     nav h2 {
         font-size: 20px;
     }
 
-    nav .btn {
-        padding: 10px 10px;
-        font-size: 8px;
-    }
-
+    
     .hero .btn {
         position: relative;
-        bottom: 8px;
+        bottom: 5px;
         right: 5px;
-        font-size: 0.5rem;
-        padding: 10px 10px;
+        font-size: 1rem;
+        padding: 3.5% 4%;
     }
 
     
