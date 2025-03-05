@@ -58,10 +58,10 @@ body {
     align-items: center;    
 }
 .sudip-header-photo img {
-    margin-left: 80px;
-    margin-top: 150px;
-    height: 700px;
-    width: 500px;
+    margin-left: 15vh;
+    margin-top: 20vh;
+    height: 90vh;
+    width: 70vw;
     filter: grayscale(0.5) contrast(1.2);
 
 }
@@ -188,7 +188,7 @@ nav .btn:hover {
 
 #about p {
     font-size: 20px;
-    max-width: 800px;
+    max-width: 1030px;
     margin: 0 auto;
     line-height: 1.8;
 }
@@ -268,11 +268,16 @@ nav .btn:hover {
     margin-top: 20px;
 }
 
+.video-container iframe {
+    border-radius: 15px;
+}
 .portfolio-item {
     position: relative;
     overflow: hidden;
+    height: 35vh;
+    width: 17vw;
     border-radius: 8px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -286,6 +291,7 @@ nav .btn:hover {
 .portfolio-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    
 }
 
 .portfolio-item:hover img {
