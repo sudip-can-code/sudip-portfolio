@@ -603,9 +603,9 @@ footer p {
     
     .hero .btn {
         position: relative;
-        bottom: 5px;
+        bottom: 0.7vh;
         right: 5px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 3.5% 4%;
     }
 
@@ -626,6 +626,7 @@ footer p {
 
     #about p {
         font-size: 16px;
+
     }
 
     .service-box {
@@ -644,9 +645,33 @@ footer p {
         font-size: 14px;
     }
 
-    .portfolio-item img {
-        height: 120px;
-    }
+    
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    border-radius: 15px;
+}
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    height: 35vh;
+    width: 78vw;
+    left: 3vh;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    
+}
 
     .overlay h3 {
         font-size: 18px;
